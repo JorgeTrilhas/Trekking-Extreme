@@ -1,0 +1,135 @@
+/* Estilo Geral */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b6e92b;
+  color: #333;
+}
+
+/* Navegação */
+nav {
+  background-color: #2c3e50;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://source.unsplash.com/random/1600x900/?trekking') no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.cta {
+  padding: 1rem 2rem;
+  background-color: #e67e22;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta:hover {
+  background-color: #d35400;
+}
+
+/* Cards de Destinos */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Conteúdo Dinâmico */
+.conteudo {
+  display: none;
+  margin-top: 6rem;
+  color: #0346ff;
+}
+
+.conteudo.ativo {
+  display: block;
+}
+
+/* Galeria */
+.galeria {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  color: red;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trekking Adventure Jorge</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS para estilização -->
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <div class="logo">Trekking Adventure Extreme Jorge Trilhas</div>
+            <ul>
+                <li><a href="#home" onclick="mostrarConteudo('home')">Home</a></li>
+                <li><a href="#destinos" onclick="mostrarConteudo('destinos')">Destinos</a></li>
+                <li><a href="#dicas" onclick="mostrarConteudo('dicas')">Dicas</a></li>
+                <li><a href="#galeria" onclick="mostrarConteudo('galeria')">Galeria</a></li>
+                <li><a href="#contato" onclick="mostrarConteudo('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Home -->
+        <div id="conteudo-home" class="conteudo ativo">
+            <h2>Bem-vindo ao Trekking Adventure Extreme Jorge Trilhas!</h2>
+            <p>A exploração começa aqui.</p>
+        </div>
+    
+        <!-- Destinos -->
+        <div id="conteudo-destinos" class="conteudo">
+            <h2>Destinos</h2>
+            <p>Serra do Mar Selvagem: Cachoeiras de nível extremo e travessias desafiadoras na Serra do Mar.</p>
+        </div>
+    
+        <!-- Dicas -->
+        <div id="conteudo-dicas" class="conteudo">
+            <h2>Dicas</h2>
+            <ul>
+                <li>Roupas leves e de secagem rápida</li>
+                <li>Kit de sobrevivência</li>
+                <li>Kit de primeiros socorros</li>
+                <li>Guiamento por GPS/Bússola</li>
+            </ul>
+        </div>
+    
+        <!-- Galeria -->   
+        <div id="conteudo-galeria" class="conteudo">
+            <h2>Galeria</h2>
+            <div class="galeria">
+             <img src="img/img/img1.jpg" alt="Lagoa Verde">
+             <img src="img/img/img2.jpg" alt="Pilões">
+             <img src="img/img/img3.jpg" alt="Ouro 3">
+             <img src="img/img/img4.jpg" alt="Juquiá">
+             <img src="img/img/img5.jpg" alt="Lagoa Verde">
+             <img src="img/img/img6.jpg" alt="Panela">
+             <img src="img/img/img7.jpg" alt="Manutenção">
+             <img src="img/img/img8.jpg" alt="Janela do céu">
+             <img src="img/img/img9.jpg" alt="Paraiso">
+             <img src="img/img/img10.jpg" alt="Grampos">
+             <img src="img/img/img11.jpeg" alt="Chuva">
+             <img src="img/img/img12.jpg" alt="Pereque">
+             <img src="img/img/img13.jpg" alt="Anchieta">
+             <img src="img/img/img14.jpg" alt="Marcolino">
+             <img src="img/img/img15.jpg" alt="Ouro 3">
+             <img src="img/img/img16.jpg" alt="Capivari">
+            </div>
+        </div>
+    
+        <!-- Contato -->
+        <div id="conteudo-contato" class="conteudo">
+            <h2>Contato</h2>
+            <p>Telefone: 11 98789-6337</p>
+            <p>Email: sabinosantana@yahoo.com.br</p>
+        </div>
+    </main>
+    
+    <!-- Destinos -->
+    <section id="destinos">
+        <h2>Destinos de Trekking</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="img/img/img16.jpg" alt="Trilha Rio Capivari">
+                <h3>Trilha Rio Capivari</h3>
+            </div>
+            <div class="card">
+                <img src="img/img/img17.jpg" alt="Trilha do Funil">
+                <h3>Trilha do Funil</h3>
+            </div>
+            <div class="card">
+                <img src="img/img/img18.jpg" alt="Trilha Paradise">
+                <h3>Trilha Paradise</h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Rodapé -->
+    <footer>
+        <p class="footer-text">&copy; 2025 Jorge Trilhas Trekking Adventure Extreme. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Arquivo JS para interatividade -->
+</body>
+</html>
